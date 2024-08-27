@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    background-color: var(--color1);
+}
+
+#container {
+    padding: 50px 0;
+}
+
+#form-area {
+    width: 600px;
+    margin: 0 auto 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 60px var(--color3),
+        -20px -20px 60px var(--color3);
+}
+
+#form-area form {
+    text-align: center;
+}
+
+#query {
+    width: 400px;
+    height: 34px;
+    font-family: 'Regular';
+    text-align: center;
+    font-size: 100%;
+    border: 2px solid var(--color2);
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#query:focus {
+    outline: 2px solid var(--color3);
+}
+
+#form-area input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    font-family: "Bold";
+    font-size: 100%;
+    border-radius: 10px;
+    background-color: var(--color3);
+    color: var(--color5);
+    cursor: pointer;
+}
+
+#not-found-message {
+    text-align: center;
+    font-family: "Black";
+    color: var(--text-color);
+    display: none;
+}
+
+#shows-area {
+    display: flex;  /*o flex já vem em column, com justfy-content vai centralizar ele*/
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.show-card {
+    width: 22%;
+    margin: 20px;
+    padding: 20px;
+    background-color: var(--color4);
+    box-sizing: border-box;    /*22% considerendo tudo*/
+    display: flex;
+    flex-direction: column;
+}
+
+.show-card img {
+    cursor: pointer;
+    width: 100%;
+}
+
+.show-card p {
+    font-family: "Black";
+    color: var(--text-color);
+    text-align: center;
+    font-size: 24px;    /*arrumar depois*/
+}
+
+.show-card a {
+    text-decoration: none;
+    color: var(--text-color);
+}

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Bold";
+    src: url(../fonts/Merriweather-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Black";
+    src: url(../fonts/Merriweather-Black.ttf);
+}
+
+@font-face {
+    font-family: "Regular";
+    src: url(../fonts/Merriweather-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Light";
+    src: url(../fonts/Merriweather-Light.ttf);
+}
